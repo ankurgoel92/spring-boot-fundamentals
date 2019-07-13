@@ -6,4 +6,6 @@ public interface ApplicationService {
 
     Iterable<Application> listApplications();
 
+    Application findApplication(long id);
+
 }

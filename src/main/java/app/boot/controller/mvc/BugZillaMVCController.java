@@ -1,4 +1,4 @@
-package app.boot.controller;
+package app.boot.controller.mvc;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -10,7 +10,7 @@ import app.boot.service.ReleaseService;
 import app.boot.service.TicketService;
 
 @Controller
-public class BugZillaController {
+public class BugZillaMVCController {
     @Autowired
     private ApplicationService applicationService;
     @Autowired
