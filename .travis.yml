@@ -3,3 +3,8 @@ sudo: false
 script: mvn clean install
 before_install:
   - chmod +x mvnw
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "5a9dfe08-11fe-45b3-83c6-e55fb43ff49e"
