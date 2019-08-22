@@ -11,4 +11,4 @@ script: ./mvnw clean install -DskipTests=true
 deploy:
   provider: heroku
   api_key: 5a9dfe08-11fe-45b3-83c6-e55fb43ff49e
-  app: spring-boot-fundamentals
+  app: bugzilla-ag
